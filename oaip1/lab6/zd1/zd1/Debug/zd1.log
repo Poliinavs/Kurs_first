@@ -1,0 +1,6 @@
+﻿  zd1.cpp
+C:\instit\lab\ОАИП\lab6\zd1\zd1\zd1.cpp(107,10): warning C4101: buf: неиспользованная локальная переменная
+C:\instit\lab\ОАИП\lab6\zd1\zd1\zd1.cpp(134,24): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\instit\lab\ОАИП\lab6\zd1\zd1\zd1.cpp(150,16): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\instit\lab\ОАИП\lab6\zd1\zd1\zd1.cpp(166,20): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+  zd1.vcxproj -> C:\instit\lab\ОАИП\lab6\zd1\Debug\zd1.exe

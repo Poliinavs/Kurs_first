@@ -1,0 +1,56 @@
+﻿Сборка начата 16.05.2022 14:49:24.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Admin\source\repos\laba15(13)\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Создание каталога "Debug\доп1.tlog\".
+     1>InitializeBuildStatus:
+         Создание "Debug\доп1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp Source1.cpp Source2.cpp
+         Source.cpp
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source.cpp(41,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Source1.cpp
+         Source2.cpp
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00DD", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00F3", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+     1>C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\source\repos\laba15(13)\Debug\доп1.exe" /INCREMENTAL /ILK:"Debug\доп1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\source\repos\laba15(13)\Debug\доп1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\source\repos\laba15(13)\Debug\доп1.lib" /MACHINE:X86 Debug\Source.obj
+         Debug\Source1.obj
+         Debug\Source2.obj
+         Project1.vcxproj -> C:\Users\Admin\source\repos\laba15(13)\Debug\доп1.exe
+       FinalizeBuildStatus:
+         Файл "Debug\доп1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\доп1.tlog\доп1.lastbuildstate".
+     1>Сборка проекта "C:\Users\Admin\source\repos\laba15(13)\Project1\Project1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\Admin\source\repos\laba15(13)\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Users\Admin\source\repos\laba15(13)\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source.cpp(41,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00DD", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00EC", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00F2", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00F3", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+         C:\Users\Admin\source\repos\laba15(13)\Project1\Source2.cpp(43,16): warning C4566: символ, представленный универсальным именем символа "\u00E0", невозможно представить в текущей кодовой странице (1251)
+
+    Предупреждений: 11
+    Ошибок: 0
+
+Прошло времени 00:00:01.89
