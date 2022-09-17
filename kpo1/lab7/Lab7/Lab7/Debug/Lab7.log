@@ -1,0 +1,26 @@
+﻿Сборка начата 08.04.2022 16:43:19.
+Уровень детализации журнала: Normal.     1>Проект "C:\instit\lab\КПО\lab7\Lab7\Lab7\Lab7.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Lab7.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D TEST_DICTIONARY /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"C:\instit\lab\КПО\lab7\Lab7\Debug\Lab7.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>C:\instit\lab\КПО\lab7\Lab7\Lab7\Dictionary.h(17,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "namespace"
+     1>C:\instit\lab\КПО\lab7\Lab7\Lab7\Main.cpp(11,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>Сборка проекта "C:\instit\lab\КПО\lab7\Lab7\Lab7\Lab7.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\instit\lab\КПО\lab7\Lab7\Lab7\Lab7.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\instit\lab\КПО\lab7\Lab7\Lab7\Main.cpp(11,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+
+       "C:\instit\lab\КПО\lab7\Lab7\Lab7\Lab7.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\instit\lab\КПО\lab7\Lab7\Lab7\Dictionary.h(17,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "namespace"
+
+    Предупреждений: 1
+    Ошибок: 1
+
+Прошло времени 00:00:01.10

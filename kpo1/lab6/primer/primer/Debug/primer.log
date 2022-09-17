@@ -1,0 +1,26 @@
+﻿Сборка начата 24.04.2022 11:55:57.
+Уровень детализации журнала: Normal.     1>Проект "C:\instit\lab\КПО\lab6\primer\primer\primer.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\primer.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt primer.cpp
+         primer.cpp
+     1>C:\instit\lab\КПО\lab6\primer\primer\primer.cpp(13,80): error C2664: "Dictionary::Instance Dictionary::Create(char [],int)": невозможно преобразовать аргумент 1 из "const char [14]" в "char []"
+       C:\instit\lab\КПО\lab6\primer\primer\primer.cpp(13,49): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       C:\instit\lab\КПО\lab6\primer\primer\Dictionary.h(28,12): message : см. объявление "Dictionary::Create"
+     1>C:\instit\lab\КПО\lab6\primer\primer\primer.cpp(23,70): error C2664: "Dictionary::Instance Dictionary::Create(char [],int)": невозможно преобразовать аргумент 1 из "const char [9]" в "char []"
+       C:\instit\lab\КПО\lab6\primer\primer\primer.cpp(23,49): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+       C:\instit\lab\КПО\lab6\primer\primer\Dictionary.h(28,12): message : см. объявление "Dictionary::Create"
+     1>Сборка проекта "C:\instit\lab\КПО\lab6\primer\primer\primer.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\instit\lab\КПО\lab6\primer\primer\primer.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\instit\lab\КПО\lab6\primer\primer\primer.cpp(13,80): error C2664: "Dictionary::Instance Dictionary::Create(char [],int)": невозможно преобразовать аргумент 1 из "const char [14]" в "char []"
+         C:\instit\lab\КПО\lab6\primer\primer\primer.cpp(23,70): error C2664: "Dictionary::Instance Dictionary::Create(char [],int)": невозможно преобразовать аргумент 1 из "const char [9]" в "char []"
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.95

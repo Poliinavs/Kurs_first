@@ -1,0 +1,25 @@
+﻿Сборка начата 02.04.2022 18:43:49.
+Уровень детализации журнала: Normal.     1>Проект "C:\instit\lab\КПО\lab7\Project1\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Project1.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\Lib.exe /OUT:"C:\instit\lab\КПО\lab7\Project1\Debug\Project1.lib" /NOLOGO /MACHINE:X86 /OUT:"C:\instit\lab\КПО\lab7\Project1\Debug\ProjectL.lib" /MACHINE:X86/NOLOGO Debug\Dictionary.obj
+     1>LINK : warning LNK4012: недопустимое значение "X86/NOLOGO", должно быть "ARM, ARM64, ARM64X, EBC, X64, or X86"; параметр пропущен
+         Project1.vcxproj -> C:\instit\lab\КПО\lab7\Project1\Debug\Project1.lib
+       FinalizeBuildStatus:
+         Файл "Debug\Project1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Project1.tlog\Project1.lastbuildstate".
+     1>Сборка проекта "C:\instit\lab\КПО\lab7\Project1\Project1\Project1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\instit\lab\КПО\lab7\Project1\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Lib) -> 
+         LINK : warning LNK4012: недопустимое значение "X86/NOLOGO", должно быть "ARM, ARM64, ARM64X, EBC, X64, or X86"; параметр пропущен
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.15

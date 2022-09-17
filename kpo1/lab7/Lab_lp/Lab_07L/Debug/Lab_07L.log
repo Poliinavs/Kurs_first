@@ -1,0 +1,20 @@
+﻿Сборка начата 08.04.2022 16:52:54.
+Уровень детализации журнала: Normal.     1>Проект "C:\instit\lab\КПО\lab7\Lab_lp\Lab_07L\Lab_07L.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Lab_07L.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"C:\instit\lab\КПО\lab7\Lab_lp\Debug\Lab_07L.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp
+         Dictionary.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\Lib.exe /OUT:"C:\instit\lab\КПО\lab7\Lab_lp\Debug\Lab_07L.lib" /NOLOGO /MACHINE:X86 Debug\Dictionary.obj
+         Lab_07L.vcxproj -> C:\instit\lab\КПО\lab7\Lab_lp\Debug\Lab_07L.lib
+       FinalizeBuildStatus:
+         Файл "Debug\Lab_07L.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab_07L.tlog\Lab_07L.lastbuildstate".
+     1>Сборка проекта "C:\instit\lab\КПО\lab7\Lab_lp\Lab_07L\Lab_07L.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.10

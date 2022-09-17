@@ -1,0 +1,35 @@
+﻿Сборка начата 28.02.2022 22:47:58.
+Уровень детализации журнала: Normal.     1>Проект "C:\instit\lab\КПО\lab3\prim\prim\prim.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\instit\lab\КПО\lab3\prim\Debug\".
+         Создание каталога "Debug\prim.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\prim.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt prim.cpp
+         prim.cpp
+     1>C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(40,19): warning C4305: инициализация: усечение из "unsigned int" в "short"
+     1>C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(40,9): warning C4309: инициализация: усечение константного значения
+     1>C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(84,3): warning C4101: c: неиспользованная локальная переменная
+     1>C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(84,6): warning C4101: d: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\instit\lab\КПО\lab3\prim\Debug\prim.exe" /INCREMENTAL /ILK:"Debug\prim.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\instit\lab\КПО\lab3\prim\Debug\prim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\instit\lab\КПО\lab3\prim\Debug\prim.lib" /MACHINE:X86 Debug\prim.obj
+         prim.vcxproj -> C:\instit\lab\КПО\lab3\prim\Debug\prim.exe
+       FinalizeBuildStatus:
+         Файл "Debug\prim.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\prim.tlog\prim.lastbuildstate".
+     1>Сборка проекта "C:\instit\lab\КПО\lab3\prim\prim\prim.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\instit\lab\КПО\lab3\prim\prim\prim.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(40,19): warning C4305: инициализация: усечение из "unsigned int" в "short"
+         C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(40,9): warning C4309: инициализация: усечение константного значения
+         C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(84,3): warning C4101: c: неиспользованная локальная переменная
+         C:\instit\lab\КПО\lab3\prim\prim\prim.cpp(84,6): warning C4101: d: неиспользованная локальная переменная
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:02.65
