@@ -1,0 +1,26 @@
+﻿Сборка начата 06.04.2022 14:47:47.
+Уровень детализации журнала: Normal.     1>Проект "C:\instit\lab\АиСД\lfb4\magazin\magazin\magazin.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\magazin.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt magazin.cpp
+         magazin.cpp
+     1>C:\instit\lab\АиСД\lfb4\magazin\magazin\magazin.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\instit\lab\АиСД\lfb4\magazin\Debug\magazin.exe" /INCREMENTAL /ILK:"Debug\magazin.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\instit\lab\АиСД\lfb4\magazin\Debug\magazin.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\instit\lab\АиСД\lfb4\magazin\Debug\magazin.lib" /MACHINE:X86 Debug\magazin.obj
+         magazin.vcxproj -> C:\instit\lab\АиСД\lfb4\magazin\Debug\magazin.exe
+       FinalizeBuildStatus:
+         Файл "Debug\magazin.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\magazin.tlog\magazin.lastbuildstate".
+     1>Сборка проекта "C:\instit\lab\АиСД\lfb4\magazin\magazin\magazin.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\instit\lab\АиСД\lfb4\magazin\magazin\magazin.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\instit\lab\АиСД\lfb4\magazin\magazin\magazin.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.98

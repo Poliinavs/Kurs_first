@@ -1,0 +1,5 @@
+﻿  hash.cpp
+C:\instit\lab\АиСД\lab6\hash\hash\hash.cpp(18,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\instit\lab\АиСД\lab6\hash\hash\hash.cpp(20,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\instit\lab\АиСД\lab6\hash\hash\hash.cpp(132,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  hash.vcxproj -> C:\instit\lab\АиСД\lab6\hash\Debug\hash.exe
