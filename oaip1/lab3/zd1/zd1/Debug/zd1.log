@@ -1,4 +1,0 @@
-﻿  zd1.cpp
-C:\instit\lab\ОАИП\lab3\zd1\zd1\zd1.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-C:\instit\lab\ОАИП\lab3\zd1\zd1\zd1.cpp(11,10): warning C4101: str: неиспользованная локальная переменная
-  zd1.vcxproj -> C:\instit\lab\ОАИП\lab3\zd1\Debug\zd1.exe
